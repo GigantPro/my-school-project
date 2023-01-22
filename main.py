@@ -2,8 +2,6 @@ import json
 import math
 import sys
 import sqlite3
-import threading
-import time
 from PyQt5.QtGui import QFontDatabase, QFont
 import hashlib
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QInputDialog
