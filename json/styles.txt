@@ -1,0 +1,436 @@
+#00747C
+#00BBC9
+#CACACA
+#878787
+#202022
+#0F0F0F
+#FFFFFF
+=123
+* {
+    background: {a};
+    background-color: {a};
+    color: {font};
+    border-width: 2px;
+    border-radius: 10px;
+    selection-color: {d};
+    
+    font: Times new roman;
+    font-size: 16px;
+}
+
+QListView{
+    background-color: {b};
+}
+
+QPushButton {
+    background-color: {b};
+    border: 2px inset black;
+}
+
+QPushButton#th_zero {
+    font-size: 13px;
+}
+
+QPushButton#th_forth {
+    font-size: 15px;
+}
+
+QPushButton#ac_registr {
+    font-size: 11px;
+}
+
+QLabel#ac_view_balls {
+    font-size: 20px;
+}
+
+QLabel#ac_accaunt_name {
+    font-size: 20px;
+    font: bold;
+}
+
+QLabel#ac_history_label {
+    font-size: 18px;
+    font: bold;
+}
+
+QLabel#te_name {
+    font-size: 30px;
+    font: bold;
+}
+
+QLabel#th_name {
+    font-size: 30px;
+}
+
+QPushButton#te_zero {
+    font-size: 13px;
+}
+
+QPushButton::hover {
+    background-color: {d};
+    opacity: 1;
+}
+
+QProgressBar#ta_progress {
+    background-color: {d};
+    background: {d};
+}
+
+QWidget#blind {
+    background: {blind};
+    border-radius: 0px;
+}
+
+QInputDialog {
+    border: 0px solid {c};
+    border-width: 0px;
+    border-radius: 0px;
+    border-top: none;    
+    border-right: none;    
+    border-bottom: none;    
+    border-left: none;
+}
+
+QMessageBox {
+    border: 0px solid {c};
+    border-width: 0px;
+    border-radius: 0px;
+    border-top: none;    
+    border-right: none;    
+    border-bottom: none;    
+    border-left: none;    
+}
+
+QLineEdit {
+    background-color: {a};
+    border: 0px solid {c};
+    border-radius: 0px;
+}
+#---------------------------------------------------------------------------------------------------------------------------------
+#BF6830
+#FFAA73
+#FF8B40
+#FF6400
+#BF6830
+#A64100
+#000000
+=123
+* {
+    background: {a};
+    background-color: {a};
+    color: {font};
+    border-width: 2px;
+    border-radius: 10px;
+    selection-color: {d};
+    
+    font: Times new roman;
+    font-size: 16px;
+}
+
+QListView{
+    background-color: {b};
+}
+
+QPushButton {
+    background-color: {b};
+    border: 2px inset black;
+}
+
+QPushButton#th_zero {
+    font-size: 13px;
+}
+
+QPushButton#th_forth {
+    font-size: 15px;
+}
+
+QPushButton#ac_registr {
+    font-size: 11px;
+}
+
+QLabel#ac_view_balls {
+    font-size: 20px;
+}
+
+QLabel#ac_accaunt_name {
+    font-size: 20px;
+    font: bold;
+}
+
+QLabel#ac_history_label {
+    font-size: 18px;
+    font: bold;
+}
+
+QLabel#te_name {
+    font-size: 30px;
+    font: bold;
+}
+
+QLabel#th_name {
+    font-size: 30px;
+}
+
+QPushButton#te_zero {
+    font-size: 13px;
+}
+
+QPushButton::hover {
+    background-color: {d};
+    opacity: 1;
+}
+
+QProgressBar#ta_progress {
+    background-color: {d};
+    background: {d};
+}
+
+QWidget#blind {
+    background: {blind};
+    border-radius: 0px;
+}
+
+QInputDialog {
+    border: 0px solid {c};
+    border-width: 0px;
+    border-radius: 0px;
+    border-top: none;    
+    border-right: none;    
+    border-bottom: none;    
+    border-left: none;
+}
+
+QMessageBox {
+    border: 0px solid {c};
+    border-width: 0px;
+    border-radius: 0px;
+    border-top: none;    
+    border-right: none;    
+    border-bottom: none;    
+    border-left: none;    
+}
+
+QLineEdit {
+    background-color: {a};
+    border: 0px solid {c};
+    border-radius: 0px;
+}
+#---------------------------------------------------------------------------------------------------------------------------------
+#4A036F
+#A13DD5
+#7309AA
+#AF66D5
+#4A036F
+#612580
+#FFFFFF
+=123
+* {
+    background: {a};
+    background-color: {a};
+    color: {font};
+    border-width: 2px;
+    border-radius: 10px;
+    selection-color: {d};
+    
+    font: Times new roman;
+    font-size: 16px;
+}
+
+QListView{
+    background-color: {b};
+}
+
+QPushButton {
+    background-color: {b};
+    border: 2px inset black;
+}
+
+QPushButton#th_zero {
+    font-size: 13px;
+}
+
+QPushButton#th_forth {
+    font-size: 15px;
+}
+
+QPushButton#ac_registr {
+    font-size: 11px;
+}
+
+QLabel#ac_view_balls {
+    font-size: 20px;
+}
+
+QLabel#ac_accaunt_name {
+    font-size: 20px;
+    font: bold;
+}
+
+QLabel#ac_history_label {
+    font-size: 18px;
+    font: bold;
+}
+
+QLabel#te_name {
+    font-size: 30px;
+    font: bold;
+}
+
+QLabel#th_name {
+    font-size: 30px;
+}
+
+QPushButton#te_zero {
+    font-size: 13px;
+}
+
+QPushButton::hover {
+    background-color: {d};
+    opacity: 1;
+}
+
+QProgressBar#ta_progress {
+    background-color: {d};
+    background: {d};
+}
+
+QWidget#blind {
+    background: {blind};
+    border-radius: 0px;
+}
+
+QInputDialog {
+    border: 0px solid {c};
+    border-width: 0px;
+    border-radius: 0px;
+    border-top: none;    
+    border-right: none;    
+    border-bottom: none;    
+    border-left: none;
+}
+
+QMessageBox {
+    border: 0px solid {c};
+    border-width: 0px;
+    border-radius: 0px;
+    border-top: none;    
+    border-right: none;    
+    border-bottom: none;    
+    border-left: none;    
+}
+
+QLineEdit {
+    background-color: {a};
+    border: 0px solid {c};
+    border-radius: 0px;
+}
+#---------------------------------------------------------------------------------------------------------------------------------
+#9DEDEA
+#65EDE8
+#1BC6BF
+#1BC6BF
+#378986
+#06716D
+#000000
+=123
+* {
+    background: {a};
+    background-color: {a};
+    color: {font};
+    border-width: 2px;
+    border-radius: 10px;
+    selection-color: {d};
+    
+    font: Times new roman;
+    font-size: 16px;
+}
+
+QListView{
+    background-color: {b};
+}
+
+QPushButton {
+    background-color: {b};
+    border: 2px inset black;
+}
+
+QPushButton#th_zero {
+    font-size: 13px;
+}
+
+QPushButton#th_forth {
+    font-size: 15px;
+}
+
+QPushButton#ac_registr {
+    font-size: 11px;
+}
+
+QLabel#ac_view_balls {
+    font-size: 20px;
+}
+
+QLabel#ac_accaunt_name {
+    font-size: 20px;
+    font: bold;
+}
+
+QLabel#ac_history_label {
+    font-size: 18px;
+    font: bold;
+}
+
+QLabel#te_name {
+    font-size: 30px;
+    font: bold;
+}
+
+QLabel#th_name {
+    font-size: 30px;
+}
+
+QPushButton#te_zero {
+    font-size: 13px;
+}
+
+QPushButton::hover {
+    background-color: {d};
+    opacity: 1;
+}
+
+QProgressBar#ta_progress {
+    background-color: {d};
+    background: {d};
+}
+
+QWidget#blind {
+    background: {blind};
+    border-radius: 0px;
+}
+
+QInputDialog {
+    border: 0px solid {c};
+    border-width: 0px;
+    border-radius: 0px;
+    border-top: none;    
+    border-right: none;    
+    border-bottom: none;    
+    border-left: none;
+}
+
+QMessageBox {
+    border: 0px solid {c};
+    border-width: 0px;
+    border-radius: 0px;
+    border-top: none;    
+    border-right: none;    
+    border-bottom: none;    
+    border-left: none;    
+}
+
+QLineEdit {
+    background-color: {a};
+    border: 0px solid {c};
+    border-radius: 0px;
+}
+#---------------------------------------------------------------------------------------------------------------------------------
