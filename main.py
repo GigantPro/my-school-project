@@ -183,10 +183,10 @@ class Ui_MainWindow(object):
         self.ta_progress.setProperty("value", 0)
         self.ta_progress.setObjectName("ta_progress")
         self.ta_fst_answ = QtWidgets.QCheckBox(self.test_wigit_answers)
-        self.ta_fst_answ.setGeometry(QtCore.QRect(300, 310, 260, 20))
+        self.ta_fst_answ.setGeometry(QtCore.QRect(200, 310, 360, 20))
         self.ta_fst_answ.setObjectName("ta_fst_answ")
         self.ta_sec_answ = QtWidgets.QCheckBox(self.test_wigit_answers)
-        self.ta_sec_answ.setGeometry(QtCore.QRect(300, 370, 260, 20))
+        self.ta_sec_answ.setGeometry(QtCore.QRect(200, 370, 360, 20))
         self.ta_sec_answ.setObjectName("ta_sec_answ")
         self.ta_third_answ = QtWidgets.QCheckBox(self.test_wigit_answers)
         self.ta_third_answ.setGeometry(QtCore.QRect(560, 310, 400, 20))
@@ -195,7 +195,7 @@ class Ui_MainWindow(object):
         self.ta_forth_answ.setGeometry(QtCore.QRect(560, 370, 400, 20))
         self.ta_forth_answ.setObjectName("ta_forth_answ")
         self.ta_answ = QtWidgets.QPushButton(self.test_wigit_answers)
-        self.ta_answ.setGeometry(QtCore.QRect(450, 430, 75, 30))
+        self.ta_answ.setGeometry(QtCore.QRect(350, 430, 75, 30))
         self.ta_answ.setObjectName("ta_answ")
 
         #-----------------------------------------------------------------------------------
@@ -491,7 +491,7 @@ class Main_Window(QMainWindow, Ui_MainWindow):
                 self.ac_histiry_results.addItem(f"{i[2]}: {i[3]}/{i[4]} ({i[3] / i[4] * 100}%)")
                 all_balls += i[4]
                 your_balls += i[3]
-            self.ac_view_balls.setText(f"Полученно баллов {your_balls}/{all_balls} ({int(your_balls / all_balls * 100)}%)")
+            self.ac_view_balls.setText(f"Полученно баллов {your_balls}/{all_balls} ({int(your_balls / all_balls * 100) if all_balls != 0 else 0}%)")
             self.db.change_value('accaunts', self.accaunt[1], 'name', your_balls, 'balls')
             self.db.change_value('accaunts', self.accaunt[1], 'name', all_balls, 'all_balls')
             # self.ac_export_csv.setEnabled(True)
