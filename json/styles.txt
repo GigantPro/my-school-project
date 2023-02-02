@@ -66,6 +66,10 @@ QPushButton#te_zero {
     font-size: 13px;
 }
 
+QPushButton#ta_answ {
+    font-size: 11px;
+}
+
 QPushButton::hover {
     background-color: {d};
     opacity: 1;
@@ -174,6 +178,10 @@ QLabel#th_name {
 
 QPushButton#te_zero {
     font-size: 13px;
+}
+
+QPushButton#ta_answ {
+    font-size: 11px;
 }
 
 QPushButton::hover {
@@ -286,6 +294,10 @@ QPushButton#te_zero {
     font-size: 13px;
 }
 
+QPushButton#ta_answ {
+    font-size: 11px;
+}
+
 QPushButton::hover {
     background-color: {d};
     opacity: 1;
@@ -396,6 +408,10 @@ QPushButton#te_zero {
     font-size: 13px;
 }
 
+QPushButton#ta_answ {
+    font-size: 11px;
+}
+
 QPushButton::hover {
     background-color: {d};
     opacity: 1;
@@ -504,6 +520,10 @@ QLabel#th_name {
 
 QPushButton#te_zero {
     font-size: 13px;
+}
+
+QPushButton#ta_answ {
+    font-size: 11px;
 }
 
 QPushButton::hover {
