@@ -28,11 +28,11 @@ QPushButton {
 }
 
 QPushButton#th_zero {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 QPushButton#th_forth {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 QPushButton#ac_registr {

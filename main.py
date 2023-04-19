@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
         self.MainWindow = MainWindow
         
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1000, 600)
+        MainWindow.setFixedSize(1000, 600)
         
         #theory_wigit
         self.main_wiget_theory = QtWidgets.QFrame(MainWindow)
