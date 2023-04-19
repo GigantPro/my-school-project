@@ -15,7 +15,7 @@
     selection-color: {d};
     
     font: Times new roman;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 QListView{

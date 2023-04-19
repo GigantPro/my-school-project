@@ -386,7 +386,7 @@ class Main_Window(QMainWindow, Ui_MainWindow):
 
         a = str(self.m_split_slider.value() + 1)
         json_ = None
-        with open(f"json\\theme{self.theme}.json", "r", encoding='utf-8') as file:
+        with open(f"json/theme{self.theme}.json", "r", encoding='utf-8') as file:
             json_ = json.loads(file.read())
         try:
             pixmap = QPixmap(json_[a]['img'])
@@ -449,7 +449,7 @@ class Main_Window(QMainWindow, Ui_MainWindow):
             self.theme = '4'
         
         json_ = None
-        with open(f"json\\theme{self.theme}.json", "r") as file:
+        with open(f"json/theme{self.theme}.json", "r") as file:
             json_ = json.loads(file.read())
 
         self.m_split_slider.setValue(0)
@@ -503,7 +503,7 @@ class Main_Window(QMainWindow, Ui_MainWindow):
     def display_questions(self):
         self.ta_answ.setText('Ответить')
         questions = None
-        with open(f"json\\test{self.test_theme}.json", 'r', encoding='utf-8') as file:
+        with open(f"json/test{self.test_theme}.json", 'r', encoding='utf-8') as file:
             questions = json.loads(file.read())
         self.max_balls = len(questions)
         if int(self.question_now) > len(questions):
@@ -543,7 +543,7 @@ class Main_Window(QMainWindow, Ui_MainWindow):
 
     def check_answer(self):
         question = None
-        with open(f"json\\test{self.test_theme}.json", 'r', encoding='utf-8') as file:
+        with open(f"json/test{self.test_theme}.json", 'r', encoding='utf-8') as file:
             question = json.loads(file.read())[self.question_now]
         check_boxes = (self.ta_fst_answ, self.ta_sec_answ, 
                         self.ta_third_answ, self.ta_forth_answ)
