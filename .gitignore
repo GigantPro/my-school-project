@@ -1,3 +1,4 @@
 db.db
 .venv
 venv
+.~lock.*
